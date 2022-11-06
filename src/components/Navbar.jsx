@@ -17,11 +17,12 @@ const NavbarContainer = styled.div`
   }
   .links {
     background: rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(20px);
     padding-left: 100px;
     padding-right: 150px;
     display: flex;
     gap: 40px;
+    z-index: 50;
     .link {
       color: #fff;
       text-transform: uppercase;
