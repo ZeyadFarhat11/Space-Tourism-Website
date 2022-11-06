@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow&family=Bellefair&display=swap");
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-transform: capitalize;
+  text-decoration: none;
+  font-family: "Barlow", sans-serif;
+}
+body {
+  margin: 0;
+  background-image: var(--img);
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  overflow-x: hidden;
+  overflow: hidden;
+}
+@media screen and (max-width: 768px) {
+  body {
+    background-image: var(--img-tablet) !important;
+  }
+}
+@media screen and (max-width: 420px) {
+  body {
+    background-image: var(--img-mobile) !important;
+  }
+}
+#root {
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr;
+  
+  grid-template-rows: auto 1fr;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Bellefair", serif;
+}
+img {
+  max-width: 100%;
+}
+
