@@ -23,6 +23,7 @@ const NavbarContainer = styled.div`
     display: flex;
     gap: 40px;
     z-index: 50;
+    transition: 0.5s;
     .link {
       color: #fff;
       text-transform: uppercase;
