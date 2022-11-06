@@ -64,6 +64,7 @@ const TechnologyContainer = styled.div`
     .name {
       font-size: 56px;
       margin: 20px 0;
+      text-transform: uppercase;
     }
     .description {
       color: ${(props) => props.theme.gray};
